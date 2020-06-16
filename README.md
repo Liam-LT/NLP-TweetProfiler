@@ -1,4 +1,4 @@
-# Twitter_User_Gender_Age_Prediction
+# Twitter_User_Gender & Age_Prediction
 
 This project focuses on finding proper mechanisms to detect Twitter user's **gender & age** data.        
 Twitter’s current policy does not require users to reveal any personal information, however, user demographic data is valuable for various business purposes.
