@@ -10,4 +10,4 @@ The repository includes:
   4. [Full Report & Reference](https://docs.google.com/document/d/17D5Vw6b8qzrclFOiHboAuqG0-ux_lSAIBitlC9Z0mto/edit?usp=sharing)
 
 # Data Overview
-# Modeling & Result
+# Model & Result
