@@ -5,7 +5,7 @@ Twitter’s current policy does not require users to reveal any personal informa
 
 The repository includes: 
   1. [Twitter API Streamer ](Notebooks/Twitter_app_streamer.ipynb) - Data collection
-  2. Gender Prediction Model
+  2. [Gender Prediction Model](Notebooks/gender.ipynb)
   3. Age Prediction Model
   4. [Full Report & Reference](https://docs.google.com/document/d/17D5Vw6b8qzrclFOiHboAuqG0-ux_lSAIBitlC9Z0mto/edit?usp=sharing)
 
