@@ -45,5 +45,5 @@ Actual training size: 2,029 x 12 attributes (After labeled and feature selection
 The repository includes: 
   1. [Twitter API Streamer ](Notebooks/Twitter_app_streamer.ipynb) - Data collection
   2. [Gender Prediction Model](Notebooks/gender.ipynb)
-  3. [Presentation Slides](https://github.com/Liam-LT/Twitter_User_Gender_Age_Detection/blob/master/Slides/TwitterProject.pdf）
+  3. [Presentation Slides](https://github.com/Liam-LT/Twitter_User_Gender_Age_Detection/blob/master/Slides/TwitterProject.pdf)
 
