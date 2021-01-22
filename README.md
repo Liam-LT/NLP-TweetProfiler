@@ -30,12 +30,12 @@ There are two main objects for the project:
 * LucidChart, Tableau
 
 ## Project Description
-###Data source:
+### Data source:
 Self-collected data from Twitter API:  
 Raw data size: 400k x 100 attributes  
 Actual training size: 2,029 x 12 attributes (After labeled and feature selection)
 
-###Assumption:
+### Assumption:
 1) Twitter users’ writing style is different by gender groups. This fundamental assumption allows 
    us to utilize text features for our prediction modeling.  
 2) All Twitter users have an equal willingness to disclose demographic data in their Twitter account profile. 
@@ -45,6 +45,5 @@ Actual training size: 2,029 x 12 attributes (After labeled and feature selection
 The repository includes: 
   1. [Twitter API Streamer ](Notebooks/Twitter_app_streamer.ipynb) - Data collection
   2. [Gender Prediction Model](Notebooks/gender.ipynb)
-  3. Age Prediction Model
-  4. [Presentation Slides](）
+  3. [Presentation Slides](https://github.com/Liam-LT/Twitter_User_Gender_Age_Detection/blob/master/Slides/TwitterProject.pdf）
 
