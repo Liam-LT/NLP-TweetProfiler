@@ -13,11 +13,11 @@ There are two main objects for the project:
 
 ### Partner
 * Intuition Intelligence Inc.
-* San Francisco State University
+* San Francisco State University -- Especially thanks Prof. Chung & Ozsen
 
 ### Methods Used
 * Inferential Statistics
-* Text Mining
+* Text Mining, NLP
 * Data Visualization
 * Machine Learning
 * Stacking Model
@@ -30,21 +30,21 @@ There are two main objects for the project:
 * LucidChart, Tableau
 
 ## Project Description
+###Data source:
+Self-collected data from Twitter API:  
+Raw data size: 400k x 100 attributes  
+Actual training size: 2,029 x 12 attributes (After labeled and feature selection)
 
-## Needs of this project
-
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
+###Assumption:
+1) Twitter users’ writing style is different by gender groups. This fundamental assumption allows 
+   us to utilize text features for our prediction modeling.  
+2) All Twitter users have an equal willingness to disclose demographic data in their Twitter account profile. 
+   This assumption ignores the sample bias for our manually labeling process.
 
 ## Getting Started
 The repository includes: 
   1. [Twitter API Streamer ](Notebooks/Twitter_app_streamer.ipynb) - Data collection
   2. [Gender Prediction Model](Notebooks/gender.ipynb)
   3. Age Prediction Model
-  4. [Full Report & Reference](https://docs.google.com/document/d/17D5Vw6b8qzrclFOiHboAuqG0-ux_lSAIBitlC9Z0mto/edit?usp=sharing)
-
+  4. [Presentation Slides](）
 
