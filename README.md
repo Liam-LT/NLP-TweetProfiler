@@ -11,22 +11,22 @@ Our current focus? Twitter users in the U.S. who love the entertainment world. T
 #### -- Project Status: [Completed]
 
 ## Project Objective
-1) **Getting User Info:** Find ways to guess user details using their public tweets and info.
-2) **Building on Existing Work:** Use and improve existing prediction models, like those on Kaggle.
+1) **Getting User Info:** Guess users' gender and age from their public tweets.
+2) **Research Foundation:** Establish a robust methodology for data collection, labeling, and preparation for subsequent research.
 
 ### Partner
 * Intuition Intelligence Inc.
 * San Francisco State University -- Especially thanks Prof. Chung & Ozsen
 
 ### Achievements:
-**Data Labeling Rule:** We've instituted reliable methods to label public Twitter data, understanding that the efficacy of machine learning models hinges on the quality of labeling.
-**Baseline Model for Gender Prediction:** Detailed breakdown of our machine learning processes from data preprocessing to prediction is provided. Notably, our model is structured with two layers, encompassing eight weak learners and a master classifier for predictions. Metrics such as accuracy score, recall, precision, F1 score, and AUC are employed to validate and fine-tune our model.
+* **Data Labeling Rule:** We've instituted reliable methods to label public Twitter data, understanding that the efficacy of machine learning models hinges on the quality of labeling.
+* **Baseline Model for Gender Prediction:** Detailed breakdown of our machine learning processes from data preprocessing to prediction is provided. Notably, our model is structured with two layers, encompassing eight weak learners and a master classifier for predictions. Metrics such as accuracy score, recall, precision, F1 score, and AUC are employed to validate and fine-tune our model.
 
 ### Technologies and Methods Used
-* Data Collection & Processing: Twitter API, Inferential Statistics
-* Text Analysis: Text Mining, Natural Language Processing (NLP)
-* Modeling: Machine Learning, Stacking Model
-* Tools: Python, Colab, Jupyter Notebook, Pandas, BERT, Scikit-learn, LucidChart, Tableau
+* **Data Collection & Processing:** Twitter API, Inferential Statistics
+* **Text Analysis:** Text Mining, Natural Language Processing (NLP)
+* **Modeling:** Machine Learning, Stacking Model
+* **Tools:** Python, Colab, Jupyter Notebook, Pandas, BERT, Scikit-learn, LucidChart, Tableau
 
 ## Project Description
 ### Data source:
