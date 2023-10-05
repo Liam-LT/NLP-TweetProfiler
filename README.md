@@ -30,15 +30,12 @@ Our current focus? Twitter users in the U.S. who love the entertainment world. T
 
 ## Project Description
 ### Data source:
-Self-collected data from Twitter API:  
-Raw data size: 400k x 100 attributes  
-Actual training size: 2,029 x 12 attributes (After labeled and feature selection)
+* **Twitter API Data:** Started with raw data having 400k entries with 100 attributes each. Refined it to 2,029 entries with 12 attributes after labeling and feature selection.
 
 ### Assumption:
-1) Twitter users’ writing style is different by gender groups. This fundamental assumption allows 
-   us to utilize text features for our prediction modeling.  
-2) All Twitter users have an equal willingness to disclose demographic data in their Twitter account profile. 
-   This assumption ignores the sample bias for our manually labeling process.
+1) **Writing Styles:** Different genders might have unique writing styles on Twitter.
+2) **Demographic Disclosure:** All Twitter users are equally likely to share demographic info on their profiles. 
+3) **Labeling Bias:** We recognize there might be biases in the manual labeling process.
 
 ## Repository Contents: 
   1. [Twitter API Streamer ](Notebooks/Twitter_app_streamer.ipynb) - Data collection
