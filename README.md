@@ -2,43 +2,34 @@
 
 ## Introduction
 
-We're working on a way to get demographic info from Twitter users, even when they don't share it. Given that online marketing needs accurate info about users, like their gender, age, and location, this project can be a game-changer.
+TweetClassifier is a research initiative exploring the feasibility of deducing demographic data such as gender and age from Twitter content. This project serves as a foundational study with potential implications for targeted marketing and audience understanding.
 
-We've teamed up with Intuition Intelligence, experts in drawing business insights from social media. This partnership is a win-win: we get to use their deep knowledge, and they benefit from our research findings.
-
-Our current focus? Twitter users in the U.S. who love the entertainment world. This helps us keep our research specific and aligns with Intuition Intelligence's main audience.
-
-#### -- Project Status: [Completed]
+### -- Project Status: [Completed]
 
 ## Project Objective
-1) **Getting User Info:** Guess users' gender and age from their public tweets.
-2) **Research Foundation:** Establish a robust methodology for data collection, labeling, and preparation for subsequent research.
+- **Demographic Inference**: Experiment with NLP models to infer user demographics from tweets.
+- **Methodological Framework**: Develop a preliminary methodology for data collection, labeling, and analysis to set the stage for future product development.
 
-### Partner
-* Intuition Intelligence Inc.
-* San Francisco State University -- Especially thanks Prof. Chung & Ozsen
+## Partner
 
-### Achievements:
-* **Data Labeling Rule:** We've instituted reliable methods to label public Twitter data, understanding that the efficacy of machine learning models hinges on the quality of labeling.
-* **Baseline Model for Gender Prediction:** Detailed breakdown of our machine learning processes from data preprocessing to prediction is provided. Notably, our model is structured with two layers, encompassing eight weak learners and a master classifier for predictions. Metrics such as accuracy score, recall, precision, F1 score, and AUC are employed to validate and fine-tune our model.
+Gratitude is extended to Intuition Intelligence Inc. and San Francisco State University, with a special nod to Prof. Chung & Ozsen, for their invaluable contributions to this exploratory study.
+- [Dr. Leyla Ozsen](https://www.linkedin.com/in/leyla-ozsen-9424a33/)
+- [Dr. Rex Cheung](https://cob.sfsu.edu/directory/rex-cheung)
 
-### Technologies and Methods Used
-* **Data Collection & Processing:** Twitter API, Inferential Statistics
-* **Text Analysis:** Text Mining, Natural Language Processing (NLP)
-* **Modeling:** Machine Learning, Stacking Model
-* **Tools:** Python, Colab, Jupyter Notebook, Pandas, BERT, Scikit-learn, LucidChart, Tableau
+## Technologies and Methods
 
-## Project Description
-### Data source:
-* **Twitter API Data:** Started with raw data having 400k entries with 100 attributes each. Refined it to 2,029 entries with 12 attributes after labeling and feature selection.
+The study utilized Python, Twitter API, Tweepy, BERT, and a two-layer stacking model approach. The first layer of the model consists of various basic classifiers (weak learners), and the second layer combines their outputs to enhance prediction accuracy, demonstrating the potential for a scalable demographic prediction model.
 
-### Assumption:
-1) **Writing Styles:** Different genders might have unique writing styles on Twitter.
-2) **Demographic Disclosure:** All Twitter users are equally likely to share demographic info on their profiles. 
-3) **Labeling Bias:** We recognize there might be biases in the manual labeling process.
+## Repository Contents
 
-## Repository Contents: 
-  1. [Twitter API Streamer ](Notebooks/Twitter_app_streamer.ipynb) - Data collection
-  2. [Gender Prediction Model](Notebooks/gender.ipynb)
-  3. [Presentation Slides](https://github.com/Liam-LT/Twitter_User_Gender_Age_Detection/blob/master/Slides/TwitterProject.pdf)
+- [Gender Prediction Model](Notebooks/TwitterClassifier.ipynb): Early-stage model development including preprocessing, analysis, and an innovative two-layer model architecture.
+- [Twitter API Streamer ](Notebooks/TwitterStreamer.ipynb): Initial scripts for data collection.
+- [Research Essay](): A detailed written analysis encapsulating the project's findings and methodological approach.
 
+## Reflections
+
+The project presents a promising start into the application of social media data towards understanding demographic trends. The two-layer ensemble model used here is a significant step in advancing NLP-driven demographic profiling.
+
+## Data and Scripts Disclaimer
+
+Please note, the original dataset for this project is not available. The scripts in this repository demonstrate our methodology but may differ from our original experiment in algorithms and parameters. They are intended to illustrate our model's structure and approach, without the capability to replicate the exact results.
