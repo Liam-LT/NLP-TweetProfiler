@@ -24,7 +24,7 @@ The study utilized Python, Twitter API, Tweepy, BERT, and a two-layer stacking m
 
 - [Gender Prediction Model](Notebooks/TweetClassifier.ipynb): Early-stage model development including preprocessing, analysis, and an innovative two-layer model architecture.
 - [Twitter API Streamer ](Notebooks/TwitterStreamer.ipynb): Initial scripts for data collection.
-- [Research Essay](): A detailed written analysis encapsulating the project's findings and methodological approach.
+- [Research Essay](Research_Essay.pdf): A detailed written analysis encapsulating the project's findings and methodological approach.
 
 ## Reflections
 
