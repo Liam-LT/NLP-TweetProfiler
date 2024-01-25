@@ -19,7 +19,8 @@ Gratitude is extended to Intuition Intelligence Inc. and San Francisco State Uni
 ## Technologies and Methods
 
 The study utilized Python, Twitter API, Tweepy, BERT, and a two-layer stacking model approach. The first layer of the model consists of various basic classifiers (weak learners), and the second layer combines their outputs to enhance prediction accuracy, demonstrating the potential for a scalable demographic prediction model.
-![Stacking Model Visualization](image/example.png)
+
+<img src="image/example.png" width="300" height="200" alt="DStacking Model Visualization">
 
 ## Repository Contents
 
